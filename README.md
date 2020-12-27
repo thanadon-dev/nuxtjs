@@ -20,21 +20,3 @@ export default {
 }
 </script>
 ```
-ฟหกหฟก
-```vue
-<template>
-  <div>
-    <h2>{{ Messager }}</h2>
-  </div>
-</template>
-
-<script>
-export default {
-  data() {
-    return {
-      Messager: 'Hello Mark',
-    }
-  },
-}
-</script>
-```
