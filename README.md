@@ -1,7 +1,7 @@
 # nuxtjs
 ฝึกเขียน Nuxt.Js
 
-```nuxt.js
+```vue
     <h2>{{ message }}</h2>
     <input type="text" v-model="message" />
 
