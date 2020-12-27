@@ -3,14 +3,14 @@
 
 ```vue
 
-<h2>{{ Messager }}</h2>
-    
-    export default {
+<script>
+export default {
   data() {
     return {
       Messager: 'Hello Mark',
     }
   },
 }
+</script>
 
 ```
