@@ -4,7 +4,7 @@
 เปิด Command Prompt ใช้คำสั่งและเปิด vscode ผ่าน cmd
 
 1.สร้าง Backend
-```python
+```#4078c0
 laravel new backend
 ```
 
