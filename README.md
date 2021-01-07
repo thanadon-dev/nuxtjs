@@ -4,6 +4,6 @@
 ```php
 เปิด Command Prompt ใช้คำสั่งและเปิด vscode ผ่าน cmd
 laravel new backend
-laravel new frontend
+npx create-nuxt-app frontend
 code .
 ```
