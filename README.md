@@ -4,7 +4,7 @@
 # Basic Nuxtjs : พื้นฐานข้อ Nuxtjs
 
 วิธีการติดตั้ง Frontend + Backend
-```vue
+```java
 1.เปิด Command Prompt ใช้คำสั่ง
 laravel new backend
 laravel new frontend
