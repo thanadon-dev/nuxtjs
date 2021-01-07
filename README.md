@@ -1,8 +1,8 @@
-# วิธีการติดตั้ง Frontend + Backend
+# วิธีการติดตั้ง Create To Project (Nuxtjs+Laravel)
 
-1.วิธีการติดตั้งผ่าน cmd
+1.วิธีการติดตั้งผ่าน cmd สร้างไฟล์ทั้ง frontend และ backend
 เปิด Command Prompt ใช้คำสั่งและเปิด vscode ผ่าน cmd
-```cmd
+```laravel
 laravel new backend
 npx create-nuxt-app frontend
 code .
