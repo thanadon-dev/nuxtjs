@@ -20,13 +20,23 @@ code .
 composer require laravel/sanctum
 ```
 
-## 4.จากนั้นสร้าง Table ที่ Backend ได้เลย
+## 6.สร้าง Database แก้ไขไฟล์ที่ชื่อว่า .env เช่น
+```php
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=thanadon
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+## 5.จากนั้นสร้าง Table ที่ Backend ได้เลย
   database/migrations จากนั้นพิมคำสั่ง 
 ```php
   php artisan migrate
 ```
 
-## 5.จากนั้นเข้าไปที่โฟเดอร์ Controllers แล้วสร้างโฟลเดอร์ที่ชื่อ Auth ไว้เพื่อทำระบบ Authentication
+## 6.จากนั้นเข้าไปที่โฟเดอร์ Controllers แล้วสร้างโฟลเดอร์ที่ชื่อ Auth ไว้เพื่อทำระบบ Authentication
 ```python
   php artisan make:controller Auth\\RegisterController
   composer require laravel/ui
