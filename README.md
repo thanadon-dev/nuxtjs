@@ -21,4 +21,14 @@ composer require laravel/sanctum
 ```
 
 4.จากนั้นสร้าง Table ที่ Backend ได้เลย
+  database/migrations จากนั้นพิมคำสั่ง 
+```java
+  php artisan migrate
+```
 
+5.จากนั้นเข้าไปที่โฟเดอร์ Controllers แล้วสร้างโฟลเดอร์ที่ชื่อ Auth ไว้เพื่อทำระบบ Authentication
+```java
+  php artisan make:controller Auth\\RegisterController
+  composer require laravel/ui
+  php artisan ui vue --auth
+```
