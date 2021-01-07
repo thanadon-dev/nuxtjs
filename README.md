@@ -2,7 +2,7 @@
 
 1.วิธีการติดตั้งผ่าน cmd
 เปิด Command Prompt ใช้คำสั่งและเปิด vscode ผ่าน cmd
-```javascript
+```cmd
 laravel new backend
 npx create-nuxt-app frontend
 code .
