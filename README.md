@@ -48,3 +48,18 @@ DB_PASSWORD=
   composer require laravel/ui
   php artisan ui vue --auth
 ```
+
+
+# Authentication (เริ่มทำระบบ สมัครสมาชิก และ เข้าสู่ระบบ)
+## 1. เริ่มต้นติดตั้ง Nuxt Auth ที่บน Frontend
+```php
+npm i @nuxtjs/auth-next
+```
+
+## 2. 
+```php
+
+```
+
+
+
