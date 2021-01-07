@@ -1,22 +1,11 @@
 # nuxtjs
-เป็นโค้ดที่เอาไว้กันลืมครับพอดีกำลังฝึกเขียน Nuxt+Nodejs อยู่
+เป็นโค้ดที่เอาไว้กันลืมครับพอดีกำลังฝึกเขียน Nuxt+Laravel อยู่
 
 # Basic Nuxtjs : พื้นฐานข้อ Nuxtjs
 
+วิธีการติดตั้ง Frontend + Backend
 ```vue
-<template>
-  <div>
-    <h2>{{ Messager }}</h2>
-  </div>
-</template>
-
-<script>
-export default {
-  data() {
-    return {
-      Messager: 'Hello Mark',
-    }
-  },
-}
-</script>
+1.เปิด Command Prompt ใช้คำสั่ง
+laravel new backend
+laravel new frontend
 ```
