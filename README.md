@@ -1,11 +1,9 @@
-# nuxtjs
-เป็นโค้ดที่เอาไว้กันลืมครับพอดีกำลังฝึกเขียน Nuxt+Laravel อยู่
+# วิธีการติดตั้ง Frontend + Backend
 
-# Basic Nuxtjs : พื้นฐานข้อ Nuxtjs
-
-วิธีการติดตั้ง Frontend + Backend
+1.วิธีการติดตั้งผ่าน cmd
 ```php
-1.เปิด Command Prompt ใช้คำสั่ง
+เปิด Command Prompt ใช้คำสั่งและเปิด vscode ผ่าน cmd
 laravel new backend
 laravel new frontend
+code .
 ```
