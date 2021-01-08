@@ -52,10 +52,10 @@ DB_PASSWORD=
 
 # Authentication (เริ่มทำระบบ สมัครสมาชิก และ เข้าสู่ระบบ)
 ## 1. เริ่มต้นติดตั้ง Nuxt Auth ที่บน Frontend
-```nuxtjs
+```nuxt
 npm i @nuxtjs/auth-next
 ```
-```nuxtjs
+```nuxt
  modules: [
     '@nuxtjs/auth-next',
   ],
