@@ -52,10 +52,10 @@ DB_PASSWORD=
 
 # Authentication (เริ่มทำระบบ สมัครสมาชิก และ เข้าสู่ระบบ)
 ## 1. เริ่มต้นติดตั้ง Nuxt Auth ที่บน Frontend
-```nuxt
+```vue
 npm i @nuxtjs/auth-next
-```
-```nuxt
+
+
  modules: [
     '@nuxtjs/auth-next',
   ],
@@ -64,7 +64,8 @@ npm i @nuxtjs/auth-next
     baseURL:'http://localhost:8000/',
     credentials: true
   },
-  ```
+  
+```
 
 ## 2. เข้า cd backend แล้วพิมเพื่อสร้างmodelเพิ่ม
 ```php
