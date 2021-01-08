@@ -55,10 +55,20 @@ DB_PASSWORD=
 ```php
 npm i @nuxtjs/auth-next
 ```
+```vue
+ modules: [
+    '@nuxtjs/auth-next',
+  ],
 
-## 2. 
+ axios: {
+    baseURL:'http://localhost:8000/',
+    credentials: true
+  },
+  ```
+
+## 2. เข้า cd backend แล้วพิมเพื่อสร้างmodelเพิ่ม
 ```php
-
+php artisan make:model Course --migration
 ```
 
 
